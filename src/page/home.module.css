@@ -1,0 +1,52 @@
+.container {
+  padding: 25px 88px;
+}
+
+/* Navbar design */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navleft {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.navright {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.navright li {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* Content bar design section */
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+/* Button design section */
+.btn {
+  width: 225px;
+  height: 64px;
+  background: #a9c2e8;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 10.899999618530273px 7.239999771118164px 0px
+      rgba(110, 139, 151, 0.18),
+    0px 26.200000762939453px 19.09000015258789px 0px rgba(110, 139, 151, 0.28),
+    0px 49.33000183105469px 35.939998626708984px 0px rgba(110, 139, 151, 0.37),
+    0px 88.01000213623047px 64.11000061035156px 0px rgba(110, 139, 151, 0.47),
+    0px 164.60000610351562px 119.9000015258789px 0px rgba(110, 139, 151, 0.61),
+    0px 394px 250px 0px rgba(110, 139, 151, 0.95);
+}
+
+/* Side images design */
+.imgcontainer {
+  position: relative;
+  margin-top: 5rem;
+}
